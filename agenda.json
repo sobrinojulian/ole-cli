@@ -1,0 +1,785 @@
+{
+  "fechas": [
+    {
+      "fecha": "2018-02-26",
+      "torneos": [
+        {
+          "id": "718",
+          "nombre": "Superliga Argentina",
+          "eventos": [
+            {
+              "id": "19851",
+              "fecha": "2018-02-26 19:00:00",
+              "nombre": "Newell's - Temperley\t",
+              "horaDia": 2,
+              "canales": [
+                { "id": "96", "nombre": "FOX PREMIUM" },
+                { "id": "15", "nombre": "FOX SPORTS 2/HD" }
+              ],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19852",
+              "fecha": "2018-02-26 19:00:00",
+              "nombre": "Talleres - Argentinos Jrs\t",
+              "horaDia": 2,
+              "canales": [{ "id": "97", "nombre": "TNT" }, { "id": "95", "nombre": "TNT SPORTS" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19853",
+              "fecha": "2018-02-26 21:15:00",
+              "nombre": "Gimnasia LP - San Lorenzo\t",
+              "horaDia": 3,
+              "canales": [{ "id": "96", "nombre": "FOX PREMIUM" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-26 19:00:00"
+        },
+        {
+          "id": "126",
+          "nombre": "Liga de Espa\u00f1a",
+          "eventos": [
+            {
+              "id": "19943",
+              "fecha": "2018-02-26 17:00:00",
+              "nombre": "Levante - Real Betis",
+              "horaDia": 2,
+              "canales": [],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-26 17:00:00"
+        },
+        {
+          "id": "128",
+          "nombre": "Serie A de Italia",
+          "eventos": [
+            {
+              "id": "19850",
+              "fecha": "2018-02-26 16:45:00",
+              "nombre": "Cagliari - Napoli",
+              "horaDia": 2,
+              "canales": [{ "id": "31", "nombre": "ESPN HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-26 16:45:00"
+        },
+        {
+          "id": "6",
+          "nombre": "Primera B Nacional",
+          "eventos": [
+            {
+              "id": "19914",
+              "fecha": "2018-02-26 17:00:00",
+              "nombre": "Deportivo Riestra - Instituto",
+              "horaDia": 2,
+              "canales": [{ "id": "50", "nombre": "TYC SPORTS PLAY" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19917",
+              "fecha": "2018-02-26 20:30:00",
+              "nombre": "Santamarina - San Mart\u00edn (T)",
+              "horaDia": 3,
+              "canales": [{ "id": "50", "nombre": "TYC SPORTS PLAY" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19918",
+              "fecha": "2018-02-26 21:30:00",
+              "nombre": "Gimnasia (J) - Agropecuario",
+              "horaDia": 3,
+              "canales": [{ "id": "50", "nombre": "TYC SPORTS PLAY" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-26 17:00:00"
+        },
+        {
+          "id": "129",
+          "nombre": "Bundesliga de Alemania",
+          "eventos": [
+            {
+              "id": "19849",
+              "fecha": "2018-02-26 16:30:00",
+              "nombre": "Borussia Dortmund vs FC Augsburg\t",
+              "horaDia": 2,
+              "canales": [{ "id": "25", "nombre": "ESPN 3/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-26 16:30:00"
+        },
+        {
+          "id": "61",
+          "nombre": "Primera B Metropolitana",
+          "eventos": [
+            {
+              "id": "19915",
+              "fecha": "2018-02-26 17:00:00",
+              "nombre": "San Miguel - Deportivo Espa\u00f1ol",
+              "horaDia": 2,
+              "canales": [{ "id": "50", "nombre": "TYC SPORTS PLAY" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19887",
+              "fecha": "2018-02-26 19:50:00",
+              "nombre": "Quilmes - Brown (A)",
+              "horaDia": 2,
+              "canales": [{ "id": "11", "nombre": "610/1610 HD DIRECTV SPORTS" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19916",
+              "fecha": "2018-02-26 20:00:00",
+              "nombre": "Talleres - Comunicaciones ",
+              "horaDia": 3,
+              "canales": [{ "id": "50", "nombre": "TYC SPORTS PLAY" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-26 17:00:00"
+        },
+        {
+          "id": "10",
+          "nombre": "NBA",
+          "eventos": [
+            {
+              "id": "19890",
+              "fecha": "2018-02-26 21:30:00",
+              "nombre": "Toronto Raptors - Detroit Pistons",
+              "horaDia": 3,
+              "canales": [{ "id": "24", "nombre": "614/1614 HD DIRECTV SPORTS" }],
+              "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" }
+            },
+            {
+              "id": "19855",
+              "fecha": "2018-02-26 23:00:00",
+              "nombre": "Houston Rockets - Utah Jazz\t",
+              "horaDia": 3,
+              "canales": [
+                { "id": "73", "nombre": "CANAL DE LA CIUDAD/EVENTOS HD 600 CABLEVISION" },
+                { "id": "14", "nombre": "NBA TV" }
+              ],
+              "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" }
+            }
+          ],
+          "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" },
+          "primerFecha": "2018-02-26 21:30:00"
+        },
+        {
+          "id": "855",
+          "nombre": "Eliminatorias",
+          "eventos": [
+            {
+              "id": "19888",
+              "fecha": "2018-02-26 20:50:00",
+              "nombre": "Paraguay - Argentina",
+              "horaDia": 3,
+              "canales": [{ "id": "16", "nombre": "612/1612 HD DIRECTV SPORTS" }],
+              "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" }
+            },
+            {
+              "id": "19889",
+              "fecha": "2018-02-26 22:30:00",
+              "nombre": "Panam\u00e1 - Uruguay",
+              "horaDia": 3,
+              "canales": [{ "id": "32", "nombre": "615/1615 HD DIRECTV SPORTS" }],
+              "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" }
+            }
+          ],
+          "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" },
+          "primerFecha": "2018-02-26 20:50:00"
+        },
+        {
+          "id": "163",
+          "nombre": "WWE (World Wrestling Entertainment)",
+          "eventos": [
+            {
+              "id": "19854",
+              "fecha": "2018-02-26 22:00:00",
+              "nombre": "Raw",
+              "horaDia": 3,
+              "canales": [{ "id": "15", "nombre": "FOX SPORTS 2/HD" }],
+              "deporte": { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" }
+            }
+          ],
+          "deporte": { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" },
+          "primerFecha": "2018-02-26 22:00:00"
+        }
+      ],
+      "eventos": [],
+      "tieneEventos": true
+    },
+    {
+      "fecha": "2018-02-27",
+      "torneos": [
+        {
+          "id": "3",
+          "nombre": "Copa Libertadores",
+          "eventos": [
+            {
+              "id": "19857",
+              "fecha": "2018-02-27 19:15:00",
+              "nombre": "Defensor Sporting - Gremio\t",
+              "horaDia": 2,
+              "canales": [{ "id": "15", "nombre": "FOX SPORTS 2/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19945",
+              "fecha": "2018-02-27 19:15:00",
+              "nombre": "Monagas - Cerro Porte\u00f1o",
+              "horaDia": 2,
+              "canales": [],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19858",
+              "fecha": "2018-02-27 21:30:00",
+              "nombre": "Colo Colo - Atl\u00e9tico Nacional\t",
+              "horaDia": 3,
+              "canales": [{ "id": "7", "nombre": "FOX SPORTS/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19859",
+              "fecha": "2018-02-27 21:30:00",
+              "nombre": "Racing - Cruzeiro\t",
+              "horaDia": 3,
+              "canales": [{ "id": "15", "nombre": "FOX SPORTS 2/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-27 19:15:00"
+        },
+        {
+          "id": "126",
+          "nombre": "Liga de Espa\u00f1a",
+          "eventos": [
+            {
+              "id": "19856",
+              "fecha": "2018-02-27 15:45:00",
+              "nombre": "Espanyol - Real Madrid\t",
+              "horaDia": 2,
+              "canales": [{ "id": "39", "nombre": "ESPN 2/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19944",
+              "fecha": "2018-02-27 17:30:00",
+              "nombre": "Girona - Celta de Vigo",
+              "horaDia": 2,
+              "canales": [],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-27 15:45:00"
+        },
+        {
+          "id": "10",
+          "nombre": "NBA",
+          "eventos": [
+            {
+              "id": "19862",
+              "fecha": "2018-02-27 23:55:00",
+              "nombre": "Sacramento Kings - Portland Trail Blazers\t",
+              "horaDia": 3,
+              "canales": [
+                { "id": "73", "nombre": "CANAL DE LA CIUDAD/EVENTOS HD 600 CABLEVISION" },
+                { "id": "14", "nombre": "NBA TV" }
+              ],
+              "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" }
+            }
+          ],
+          "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" },
+          "primerFecha": "2018-02-27 23:55:00"
+        },
+        {
+          "id": "136",
+          "nombre": "Liga de M\u00e9xico",
+          "eventos": [
+            {
+              "id": "19860",
+              "fecha": "2018-02-27 21:50:00",
+              "nombre": "Tiburones Rojos de Veracruz - Club Atlas de Guadalajara\t",
+              "horaDia": 3,
+              "canales": [{ "id": "25", "nombre": "ESPN 3/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19861",
+              "fecha": "2018-02-27 23:55:00",
+              "nombre": "Monarcas de Morelia - Gallos Blancos de Quer\u00e9taro\t",
+              "horaDia": 3,
+              "canales": [{ "id": "25", "nombre": "ESPN 3/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-27 21:50:00"
+        }
+      ],
+      "eventos": [],
+      "tieneEventos": true
+    },
+    {
+      "fecha": "2018-02-28",
+      "torneos": [
+        {
+          "id": "3",
+          "nombre": "Copa Libertadores",
+          "eventos": [
+            {
+              "id": "19919",
+              "fecha": "2018-02-28 19:15:00",
+              "nombre": "Nacional - Estudiantes\t",
+              "horaDia": 2,
+              "canales": [{ "id": "15", "nombre": "FOX SPORTS 2/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19920",
+              "fecha": "2018-02-28 19:15:00",
+              "nombre": "Independiente Santa Fe - Emelec",
+              "horaDia": 2,
+              "canales": [{ "id": "7", "nombre": "FOX SPORTS/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19921",
+              "fecha": "2018-02-28 21:45:00",
+              "nombre": "Flamengo - River Plate\t",
+              "horaDia": 3,
+              "canales": [{ "id": "7", "nombre": "FOX SPORTS/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19922",
+              "fecha": "2018-02-28 21:45:00",
+              "nombre": "Millonarios - Corinthians\t",
+              "horaDia": 3,
+              "canales": [{ "id": "15", "nombre": "FOX SPORTS 2/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-28 19:15:00"
+        },
+        {
+          "id": "126",
+          "nombre": "Liga de Espa\u00f1a",
+          "eventos": [
+            {
+              "id": "19863",
+              "fecha": "2018-02-28 15:30:00",
+              "nombre": "Malaga - Sevilla",
+              "horaDia": 2,
+              "canales": [{ "id": "39", "nombre": "ESPN 2/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19946",
+              "fecha": "2018-02-28 15:30:00",
+              "nombre": "Athletic Club -\t Valencia",
+              "horaDia": 2,
+              "canales": [],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19947",
+              "fecha": "2018-02-28 15:30:00",
+              "nombre": "Getafe - Deportivo La Coru\u00f1a",
+              "horaDia": 2,
+              "canales": [],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19865",
+              "fecha": "2018-02-28 17:30:00",
+              "nombre": "Atletico de Madrid - Leganes\t",
+              "horaDia": 2,
+              "canales": [{ "id": "39", "nombre": "ESPN 2/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19948",
+              "fecha": "2018-02-28 17:30:00",
+              "nombre": "Eibar - Villarreal",
+              "horaDia": 2,
+              "canales": [],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-28 15:30:00"
+        },
+        {
+          "id": "281",
+          "nombre": "FA Cup",
+          "eventos": [
+            {
+              "id": "19864",
+              "fecha": "2018-02-28 16:45:00",
+              "nombre": "Tottenham - Rochdale\t",
+              "horaDia": 2,
+              "canales": [{ "id": "25", "nombre": "ESPN 3/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-28 16:45:00"
+        },
+        {
+          "id": "61",
+          "nombre": "Primera B Metropolitana",
+          "eventos": [
+            {
+              "id": "19923",
+              "fecha": "2018-02-28 21:45:00",
+              "nombre": "Defensores de Belgrano - Villa San Carlos",
+              "horaDia": 3,
+              "canales": [{ "id": "20", "nombre": "TYC SPORTS/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-28 21:45:00"
+        },
+        {
+          "id": "10",
+          "nombre": "NBA",
+          "eventos": [
+            {
+              "id": "19924",
+              "fecha": "2018-02-28 22:00:00",
+              "nombre": "Golden State Warriors - Washington Wizards\t",
+              "horaDia": 3,
+              "canales": [{ "id": "31", "nombre": "ESPN HD" }],
+              "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" }
+            },
+            {
+              "id": "19925",
+              "fecha": "2018-02-28 22:30:00",
+              "nombre": "New Orleans Pelicans - San Antonio Spurts\t",
+              "horaDia": 3,
+              "canales": [
+                { "id": "73", "nombre": "CANAL DE LA CIUDAD/EVENTOS HD 600 CABLEVISION" },
+                { "id": "14", "nombre": "NBA TV" }
+              ],
+              "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" }
+            }
+          ],
+          "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" },
+          "primerFecha": "2018-02-28 22:00:00"
+        },
+        {
+          "id": "326",
+          "nombre": "Liga de Campeones Concacaf",
+          "eventos": [
+            {
+              "id": "19926",
+              "fecha": "2018-02-28 23:55:00",
+              "nombre": "America - Deportivo Saprissa\t",
+              "horaDia": 3,
+              "canales": [{ "id": "15", "nombre": "FOX SPORTS 2/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-02-28 23:55:00"
+        }
+      ],
+      "eventos": [],
+      "tieneEventos": true
+    },
+    {
+      "fecha": "2018-03-01",
+      "torneos": [
+        {
+          "id": "3",
+          "nombre": "Copa Libertadores",
+          "eventos": [
+            {
+              "id": "19932",
+              "fecha": "2018-03-01 19:15:00",
+              "nombre": "Deportivo Lara - Independiente",
+              "horaDia": 2,
+              "canales": [{ "id": "7", "nombre": "FOX SPORTS/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19933",
+              "fecha": "2018-03-01 21:30:00",
+              "nombre": "Alianza Lima - Boca Juniors\t",
+              "horaDia": 3,
+              "canales": [{ "id": "7", "nombre": "FOX SPORTS/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19934",
+              "fecha": "2018-03-01 21:30:00",
+              "nombre": "Junior - Palmeiras\t",
+              "horaDia": 3,
+              "canales": [{ "id": "15", "nombre": "FOX SPORTS 2/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-03-01 19:15:00"
+        },
+        {
+          "id": "126",
+          "nombre": "Liga de Espa\u00f1a",
+          "eventos": [
+            {
+              "id": "19929",
+              "fecha": "2018-03-01 15:30:00",
+              "nombre": "Real Betis - Real Sociedad\t",
+              "horaDia": 2,
+              "canales": [{ "id": "25", "nombre": "ESPN 3/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19930",
+              "fecha": "2018-03-01 17:00:00",
+              "nombre": "Las Palmas - Barcelona\t",
+              "horaDia": 2,
+              "canales": [{ "id": "84", "nombre": "CANAL 8/EVENTOS HD 600 CABLEVISION" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            },
+            {
+              "id": "19931",
+              "fecha": "2018-03-01 17:30:00",
+              "nombre": "Alav\u00e9s - Levante\t",
+              "horaDia": 2,
+              "canales": [{ "id": "25", "nombre": "ESPN 3/HD" }],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-03-01 15:30:00"
+        },
+        {
+          "id": "125",
+          "nombre": "Premier League",
+          "eventos": [
+            {
+              "id": "19949",
+              "fecha": "2018-03-01 16:45:00",
+              "nombre": "Arsenal -\t Manchester City",
+              "horaDia": 2,
+              "canales": [],
+              "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" }
+            }
+          ],
+          "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+          "primerFecha": "2018-03-01 16:45:00"
+        },
+        {
+          "id": "10",
+          "nombre": "NBA",
+          "eventos": [
+            {
+              "id": "19927",
+              "fecha": "2018-03-01 00:30:00",
+              "nombre": "Houston Rockets - LA Clippers\t",
+              "horaDia": 1,
+              "canales": [{ "id": "31", "nombre": "ESPN HD" }],
+              "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" }
+            }
+          ],
+          "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" },
+          "primerFecha": "2018-03-01 00:30:00"
+        },
+        {
+          "id": "233",
+          "nombre": "Voley: Liga Argentina",
+          "eventos": [
+            {
+              "id": "19935",
+              "fecha": "2018-03-01 21:45:00",
+              "nombre": "Libertad - UPCN\t",
+              "horaDia": 3,
+              "canales": [{ "id": "20", "nombre": "TYC SPORTS/HD" }],
+              "deporte": { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" }
+            }
+          ],
+          "deporte": { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" },
+          "primerFecha": "2018-03-01 21:45:00"
+        },
+        {
+          "id": "941",
+          "nombre": "Golf: Tshwane Open\t",
+          "eventos": [
+            {
+              "id": "19928",
+              "fecha": "2018-03-01 09:30:00",
+              "nombre": "Primera ronda A\t",
+              "horaDia": 1,
+              "canales": [{ "id": "51", "nombre": "GOLF CHANNEL" }],
+              "deporte": { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" }
+            }
+          ],
+          "deporte": { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" },
+          "primerFecha": "2018-03-01 09:30:00"
+        }
+      ],
+      "eventos": [],
+      "tieneEventos": true
+    }
+  ],
+  "canales": [
+    { "id": "11", "nombre": "610/1610 HD DIRECTV SPORTS" },
+    { "id": "16", "nombre": "612/1612 HD DIRECTV SPORTS" },
+    { "id": "24", "nombre": "614/1614 HD DIRECTV SPORTS" },
+    { "id": "32", "nombre": "615/1615 HD DIRECTV SPORTS" },
+    { "id": "84", "nombre": "CANAL 8/EVENTOS HD 600 CABLEVISION" },
+    { "id": "73", "nombre": "CANAL DE LA CIUDAD/EVENTOS HD 600 CABLEVISION" },
+    { "id": "39", "nombre": "ESPN 2/HD" },
+    { "id": "25", "nombre": "ESPN 3/HD" },
+    { "id": "31", "nombre": "ESPN HD" },
+    { "id": "96", "nombre": "FOX PREMIUM" },
+    { "id": "15", "nombre": "FOX SPORTS 2/HD" },
+    { "id": "7", "nombre": "FOX SPORTS/HD" },
+    { "id": "51", "nombre": "GOLF CHANNEL" },
+    { "id": "14", "nombre": "NBA TV" },
+    { "id": "97", "nombre": "TNT" },
+    { "id": "95", "nombre": "TNT SPORTS" },
+    { "id": "50", "nombre": "TYC SPORTS PLAY" },
+    { "id": "20", "nombre": "TYC SPORTS/HD" }
+  ],
+  "deportes": [
+    { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" },
+    { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+    { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" }
+  ],
+  "torneos": [
+    {
+      "id": "129",
+      "nombre": "Bundesliga de Alemania",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "3",
+      "nombre": "Copa Libertadores",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "855",
+      "nombre": "Eliminatorias",
+      "eventos": [],
+      "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "281",
+      "nombre": "FA Cup",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "941",
+      "nombre": "Golf: Tshwane Open\t",
+      "eventos": [],
+      "deporte": { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "326",
+      "nombre": "Liga de Campeones Concacaf",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "126",
+      "nombre": "Liga de Espa\u00f1a",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "136",
+      "nombre": "Liga de M\u00e9xico",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "10",
+      "nombre": "NBA",
+      "eventos": [],
+      "deporte": { "id": "2", "nombre": "B\u00e1squet", "icono": "basquet.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "125",
+      "nombre": "Premier League",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "61",
+      "nombre": "Primera B Metropolitana",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "6",
+      "nombre": "Primera B Nacional",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "128",
+      "nombre": "Serie A de Italia",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "718",
+      "nombre": "Superliga Argentina",
+      "eventos": [],
+      "deporte": { "id": "1", "nombre": "F\u00fatbol", "icono": "futbol.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "233",
+      "nombre": "Voley: Liga Argentina",
+      "eventos": [],
+      "deporte": { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" },
+      "primerFecha": null
+    },
+    {
+      "id": "163",
+      "nombre": "WWE (World Wrestling Entertainment)",
+      "eventos": [],
+      "deporte": { "id": "7", "nombre": "Polideportivo", "icono": "polideportivo.png" },
+      "primerFecha": null
+    }
+  ],
+  "hoy": "2018-02-26",
+  "firma": { "mail": "lrazetti@ole.com.ar", "nombre": "Lucas Razetti" }
+}
