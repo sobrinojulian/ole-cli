@@ -1,0 +1,25 @@
+{
+  "name": "agenda-ole-cli",
+  "version": "1.0.0",
+  "description": "CLI para la Agenda deportiva Olé",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sobrinojulian/agenda-ole-cli.git"
+  },
+  "author": "Sobrino Julian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sobrinojulian/agenda-ole-cli/issues"
+  },
+  "homepage": "https://github.com/sobrinojulian/agenda-ole-cli#readme",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "prettier-eslint": "^8.8.1"
+  }
+}
