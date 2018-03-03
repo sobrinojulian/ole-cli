@@ -4,8 +4,7 @@ const https = require('https')
 const cli = require('commander')
 const Table = require('cli-table2')
 const colors = require('colors/safe')
-
-const arrEstaVacio = arr => arr.length === 0
+const moment = require('moment')
 
 const main = () => {
   cli
@@ -30,6 +29,8 @@ const main = () => {
   })
 }
 
+const arrIsEmpty = arr => arr.length === 0
+
 const wordWrapCanales = canales => {
   let str = ''
   for (let i = 0; i < canales.length; i++) {
@@ -46,21 +47,22 @@ const makeTable = agenda => {
   let table = new Table()
 
   for (const fecha of agenda.fechas) {
-    const dia = fecha.fecha.replace('\t', '')
+    const dia = moment(fecha.fecha).format('dddd DD [de] MMMM')
     table.push([{ colSpan: 3, content: colors.green(dia) }])
 
     for (const torneo of fecha.torneos) {
-      if (arrEstaVacio(torneo.eventos)) continue
-      const dep = torneo.eventos[0].deporte.nombre.replace('\t', '')
-      const deporteTorneo = `${emojis[dep]}  ${torneo.nombre}`.replace('\t', '')
+      if (arrIsEmpty(torneo.eventos)) continue
+      const deporte = torneo.eventos[0].deporte.nombre.replace('\t', '')
+      const emoji = emojis[deporte]
+      const deporteTorneo = `${emoji}  ${torneo.nombre}`.replace('\t', '')
       table.push([{ colSpan: 3, content: colors.red(deporteTorneo) }])
 
       for (const evento of torneo.eventos) {
-        const horario = `${evento.fecha.split(' ')[1].substr(0, 5)}`
-        const nombre = `${evento.nombre
+        const horario = evento.fecha.split(' ')[1].substr(0, 5)
+        const nombre = evento.nombre
           .replace('\t', '')
           .split(' - ')
-          .join('\n')}`
+          .join('\n')
         const canales = wordWrapCanales(evento.canales)
         table.push([colors.green(horario), nombre, canales])
       }
