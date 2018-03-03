@@ -3,15 +3,7 @@
 const https = require('https')
 const cli = require('commander')
 const Table = require('cli-table2')
-
-const esMismoDia = dia => (element, index, array) => element.fecha === dia
-const esMismoHorario = horario => (element, index, array) =>
-  element.horario === horario
-const esMismoCanal = canal => (element, index, array) => element.canal === canal
-const esMismoDeporte = deporte => (element, index, array) =>
-  element.deporte === deporte
-const esMismoTorneo = torneo => (element, index, array) =>
-  element.torneo === torneo
+const colors = require('colors/safe')
 
 const arrEstaVacio = arr => arr.length === 0
 
@@ -32,34 +24,10 @@ const main = () => {
     res.on('data', chunk => (data += chunk))
     res.on('end', () => {
       const agenda = JSON.parse(data)
-      const filtered = filterAgenda(agenda, cli)
-      const table = makeTable(filtered)
+      const table = makeTable(agenda)
       console.log(table.toString())
     })
   })
-}
-
-const filterAgenda = (agenda, cli) => {
-  let a = agenda
-  if (cli.dia) {
-    const args = cli.dia.split(',')
-    for (const dia of args) {
-      a.fechas.filter(esMismoDia(dia))
-    }
-  }
-  if (cli.horario) {
-    const args = cli.horario.split(',')
-  }
-  if (cli.canal) {
-    const args = cli.canal.split(',')
-  }
-  if (cli.deporte) {
-    const args = cli.deporte.split(',')
-  }
-  if (cli.torneo) {
-    const args = cli.deporte.split(',')
-  }
-  return a
 }
 
 const wordWrapCanales = canales => {
@@ -79,13 +47,13 @@ const makeTable = agenda => {
 
   for (const fecha of agenda.fechas) {
     const dia = fecha.fecha.replace('\t', '')
-    table.push([{ colSpan: 3, content: dia }])
+    table.push([{ colSpan: 3, content: colors.green(dia) }])
 
     for (const torneo of fecha.torneos) {
       if (arrEstaVacio(torneo.eventos)) continue
       const dep = torneo.eventos[0].deporte.nombre.replace('\t', '')
       const deporteTorneo = `${emojis[dep]}  ${torneo.nombre}`.replace('\t', '')
-      table.push([{ colSpan: 3, content: deporteTorneo }])
+      table.push([{ colSpan: 3, content: colors.red(deporteTorneo) }])
 
       for (const evento of torneo.eventos) {
         const horario = `${evento.fecha.split(' ')[1].substr(0, 5)}`
@@ -94,7 +62,7 @@ const makeTable = agenda => {
           .split(' - ')
           .join('\n')}`
         const canales = wordWrapCanales(evento.canales)
-        table.push([horario, nombre, canales])
+        table.push([colors.green(horario), nombre, canales])
       }
     }
   }
