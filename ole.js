@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const R = require('ramda')
-const table = require('text-table')
 const moment = require('moment')
 const axios = require('axios')
 const chalk = require('chalk')

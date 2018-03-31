@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 
-const vorpal = require('vorpal')();
-const ole = require('./ole');
-const less = require('vorpal-less');
+const vorpal = require('vorpal')()
+const ole = require('./ole')
+const less = require('vorpal-less')
 
 vorpal
-  .delimiter('~')
+  .delimiter('')
   .use(ole)
   .use(less)
-  .show();
+  .show()
+  .exec('ole | less')
+  .then(vorpal.exec('exit'))
