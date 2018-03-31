@@ -100,21 +100,21 @@ const makeTable = (agenda) => {
   return table
 }
 
-async function printAgenda () {
-  try {
-    const url = 'https://www.ole.com.ar/wg-agenda-deportiva/json/agenda.json'
-    const response = await axios.get(url)
-    const data = response.data
-    const agenda = R.pipe(
-      R.prop(['fechas']),
-      R.project(['fecha', 'torneos']),
-      R.map(fixFecha),
-      makeTable
-    )(data)
-    console.log(agenda.toString())
-    // console.log(table(agenda, { align: ['l', 'r'] }))
-  } catch (error) {
-    console.error(error)
-  }
+module.exports = function (vorpal) {
+  vorpal.command('ole', 'Outputs "bar".').action(async function printAgenda () {
+    try {
+      const url = 'https://www.ole.com.ar/wg-agenda-deportiva/json/agenda.json'
+      const response = await axios.get(url)
+      const data = response.data
+      const agenda = R.pipe(
+        R.prop(['fechas']),
+        R.project(['fecha', 'torneos']),
+        R.map(fixFecha),
+        makeTable
+      )(data)
+      this.log(agenda.toString())
+    } catch (error) {
+      console.error(error)
+    }
+  })
 }
-printAgenda()

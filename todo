@@ -1,4 +1,3 @@
-vorpal less
 vorpal.parse(process.argv)
 filter
 
