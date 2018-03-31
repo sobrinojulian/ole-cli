@@ -1,11 +1,6 @@
-now:
-  vorpal less
-  wordwrap
-  chalk
-
-after:
-  vorpal.parse(process.argv)
-  filter
+vorpal less
+vorpal.parse(process.argv)
+filter
 
 refactor:
   functional makeTable
