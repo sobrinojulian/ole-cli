@@ -9,5 +9,4 @@ vorpal
   .use(ole)
   .use(less)
   .show()
-  .exec('ole | less')
-  .then(vorpal.exec('exit'))
+  .parse(process.argv)

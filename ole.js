@@ -1,10 +1,7 @@
-#!/usr/bin/env node
-
 const R = require('ramda')
 const moment = require('moment')
 const axios = require('axios')
-const chalk = require('chalk')
-const Table = require('cli-table2')
+const table = require('./table')
 
 const fixFecha = (fecha) => {
   const torneos = R.map(fixTorneo, fecha.torneos)
@@ -40,80 +37,23 @@ const fixEvento = (evento) => {
   return R.merge(evento, { nombre, equipos, deporte, canales, fecha })
 }
 
-const makeTable = (agenda) => {
-  let table = new Table({
-    chars: {
-      top: '',
-      'top-mid': '',
-      'top-left': '',
-      'top-right': '',
-      bottom: '',
-      'bottom-mid': '',
-      'bottom-left': '',
-      'bottom-right': '',
-      left: '',
-      'left-mid': '',
-      mid: '',
-      'mid-mid': '',
-      right: '',
-      'right-mid': '',
-      middle: ' '
-    },
-    style: { 'padding-left': 0, 'padding-right': 0 },
-    colWidths: [, , 22],
-    wordWrap: true
-  })
-  for (const fecha of agenda) {
-    table.push([
-      {
-        hAlign: 'center',
-        colSpan: 3,
-        content: `\n\n${chalk.bold.underline(
-          moment(fecha.fecha)
-            .locale('es')
-            .format('dddd DD [de] MMMM')
-            .toUpperCase()
-        )}`
-      }
-    ])
-    for (const torneo of fecha.torneos) {
-      table.push([
-        {
-          colSpan: 3,
-          content: `\n${torneo.emoji}  ${chalk.green(
-            torneo.nombre.toUpperCase()
-          )}`
-        }
-      ])
-      for (const evento of torneo.eventos) {
-        table.push([
-          chalk.red(evento.fecha.format('hh:ss')),
-          evento.equipos.length !== 0
-            ? evento.equipos.join('\n')
-            : evento.nombre,
-          { hAlign: 'right', content: evento.canales.join('\n') }
-        ])
-      }
-    }
-  }
-  return table
-}
-
 module.exports = function (vorpal) {
-  vorpal.command('ole', 'Outputs "bar".').action(async function printAgenda () {
-    try {
-      const url = 'https://www.ole.com.ar/wg-agenda-deportiva/json/agenda.json'
-      const response = await axios.get(url)
-      const data = response.data
-      const agenda = R.pipe(
-        R.prop(['fechas']),
-        R.project(['fecha', 'torneos']),
-        R.map(fixFecha),
-        makeTable
-      )(data)
-      this.log(agenda.toString())
-    } catch (error) {
-      console.error(error)
-    }
-  })
+  vorpal
+    .command('ole', 'Lista eventos de la agenda deportiva Olé')
+    .action(async (args, cb) => {
+      try {
+        const url =
+          'https://www.ole.com.ar/wg-agenda-deportiva/json/agenda.json'
+        const response = await axios.get(url)
+        const agenda = R.pipe(
+          R.prop(['fechas']),
+          R.project(['fecha', 'torneos']),
+          R.map(fixFecha),
+          table
+        )(response.data)
+        this.log(agenda.toString())
+      } catch (error) {
+        console.error(error)
+      }
+    })
 }
