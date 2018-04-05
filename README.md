@@ -13,24 +13,32 @@ $ npm install --global agenda-ole-cli
 ```
 $ ole --help
 
-  Usage
-    ole [options]
+	Usage
+    $ ole <options>
+    $ ole <options> | less
+    $ ole --interactive
 
   Options
-    -d --dia=<hoy|maniana|lunes|...>
-    -h --horario=<maniana|tarde|noche>
-    -c --canal=<'ESPN HD'|'Fox Premium'|...>
-    -D --deporte=<basquet|futbol|tenis|...>
-    -t --torneo=<torneo>
+    --interactive -i
+    --dia,        -d  <0|1|2|3>
+    --horario,    -h  <1|2|3>
+    --canal,      -c  <canal>
+    --deporte,    -D  <deporte>
+    --torneo,     -t  <torneo>
+    --equipo,     -e  <equipo>
+
 
   Examples
     $ ole
-    $ ole -d=hoy
-    $ ole -d=hoy,maniana
-    $ ole -c='ESPN HD','Fox Premium'
-    $ ole -D=futbol
-    $ ole -t='NBA'
-    $ ole -d=hoy -t='NBA'
+    Imprime todos los eventos
+    $ ole -d 0
+    Imprime los eventos de hoy
+    $ ole -d 0 1
+    Imprime los eventos de hoy y mañana
+    $ ole -d 0 1 -e boca river spurs
+    Imprime los eventos de hoy y mañana de boca river y spurs
+    $ ole -c 'fox sports 2' espn
+    Imprime ESPN, ESPN 2, ESPN 3 y FOX SPORTS 2
 ```
 
 ## License

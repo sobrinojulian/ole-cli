@@ -1,6 +1,7 @@
 const Table = require('cli-table2')
 const moment = require('moment')
 
+
 const makeTable = (agenda) => {
   let table = new Table({
     chars: {
@@ -20,11 +21,11 @@ const makeTable = (agenda) => {
       'right-mid': '',
       middle: ' '
     },
-    style: { 'padding-left': 0, 'padding-right': 0 },
     colWidths: [, , 22],
     wordWrap: true
   })
   for (const fecha of agenda) {
+    // FECHA
     table.push([
       {
         hAlign: 'center',
@@ -36,6 +37,7 @@ const makeTable = (agenda) => {
       }
     ])
     for (const torneo of fecha.torneos) {
+      // TORNEO
       if (torneo.eventos.length === 0) continue
       table.push([
         {
@@ -44,8 +46,9 @@ const makeTable = (agenda) => {
         }
       ])
       for (const evento of torneo.eventos) {
+        // EVENTO
         table.push([
-          evento.fecha.format('hh:ss'),
+          evento.fecha.format('hh:mm'),
           evento.equipos.length !== 0
             ? evento.equipos.join('\n')
             : evento.nombre,

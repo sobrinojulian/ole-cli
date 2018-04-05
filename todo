@@ -1,5 +1,8 @@
-vorpal.parse(process.argv)
+# todo
+bin/
+interactive yargs
 filter
+sort files
 
-refactor:
-  functional makeTable
+# refactor
+- functional makeTable
