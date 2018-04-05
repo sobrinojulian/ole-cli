@@ -1,8 +1,8 @@
-# todo
-bin/
-interactive yargs
-filter
-sort files
-
-# refactor
+- bin/
+- interactive yargs
+- filter
+- sort files
+- add aliases
 - functional makeTable
+- fcc-ba code-review
+- npm publish
