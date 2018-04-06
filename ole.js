@@ -3,7 +3,7 @@ const moment = require('moment')
 const axios = require('axios')
 
 const fix = require('./libs/fix')
-// const filter = require('./filter')
+const filter = require('./libs/filter')
 const table = require('./libs/table')
 
 module.exports = async () => {
@@ -13,8 +13,8 @@ module.exports = async () => {
     R.prop(['fechas']),
     R.project(['fecha', 'torneos']),
     R.map(fix),
-    // R.map(filter)
-    table,
+    filter,
+    table
   )(response.data)
   return agenda.toString()
 }

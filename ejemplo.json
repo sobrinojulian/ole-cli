@@ -1,0 +1,2446 @@
+{
+    "fechas": [
+        {
+            "eventos": [],
+            "fecha": "2018-04-06",
+            "tieneEventos": true,
+            "torneos": [
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "95",
+                                    "nombre": "TNT SPORTS"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-06 19:00:00",
+                            "horaDia": 2,
+                            "id": "20838",
+                            "nombre": "Tigre - Gimnasia "
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "96",
+                                    "nombre": "FOX PREMIUM"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-06 21:15:00",
+                            "horaDia": 3,
+                            "id": "20839",
+                            "nombre": "Argentinos - Union"
+                        }
+                    ],
+                    "id": "718",
+                    "nombre": "Superliga Argentina",
+                    "primerFecha": "2018-04-06 19:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "tenis.png",
+                        "id": "3",
+                        "nombre": "Tenis"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "tenis.png",
+                                "id": "3",
+                                "nombre": "Tenis"
+                            },
+                            "fecha": "2018-04-06 06:30:00",
+                            "horaDia": 1,
+                            "id": "20906",
+                            "nombre": "David Ferrer (ESP) - Alexander Zverev (ALE)"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "tenis.png",
+                                "id": "3",
+                                "nombre": "Tenis"
+                            },
+                            "fecha": "2018-04-06 09:00:00",
+                            "horaDia": 1,
+                            "id": "20907",
+                            "nombre": "Rafael Nadal (ESP) - Philipp Kohlschreiber (ALE)"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                },
+                                {
+                                    "id": "20",
+                                    "nombre": "TYC SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "tenis.png",
+                                "id": "3",
+                                "nombre": "Tenis"
+                            },
+                            "fecha": "2018-04-06 13:30:00",
+                            "horaDia": 2,
+                            "id": "20811",
+                            "nombre": "Argentina - Chile"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                },
+                                {
+                                    "id": "20",
+                                    "nombre": "TYC SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "tenis.png",
+                                "id": "3",
+                                "nombre": "Tenis"
+                            },
+                            "fecha": "2018-04-06 14:00:00",
+                            "horaDia": 2,
+                            "id": "20833",
+                            "nombre": "Single 1: Nicolas Kicker - Nicolas Jarry"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                },
+                                {
+                                    "id": "20",
+                                    "nombre": "TYC SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "tenis.png",
+                                "id": "3",
+                                "nombre": "Tenis"
+                            },
+                            "fecha": "2018-04-06 16:30:00",
+                            "horaDia": 2,
+                            "id": "20834",
+                            "nombre": "Single 2: Diego Schwartzman - Cristian Garin"
+                        }
+                    ],
+                    "id": "26",
+                    "nombre": "Copa Davis",
+                    "primerFecha": "2018-04-06 06:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-06 15:30:00",
+                            "horaDia": 2,
+                            "id": "20813",
+                            "nombre": "Hannover 96 - Werder Bremen\t"
+                        }
+                    ],
+                    "id": "129",
+                    "nombre": "Bundesliga de Alemania",
+                    "primerFecha": "2018-04-06 15:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "16",
+                                    "nombre": "612/1612 HD DIRECTV SPORTS"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-06 15:30:00",
+                            "horaDia": 2,
+                            "id": "20830",
+                            "nombre": "Saint Etienne - PSG"
+                        }
+                    ],
+                    "id": "127",
+                    "nombre": "Ligue 1 de Francia",
+                    "primerFecha": "2018-04-06 15:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-06 15:30:00",
+                            "horaDia": 2,
+                            "id": "20909",
+                            "nombre": "Deportivo Riestra - Ferro"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-06 15:30:00",
+                            "horaDia": 2,
+                            "id": "20910",
+                            "nombre": "San Miguel - Defensores de Belgrano"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-06 15:30:00",
+                            "horaDia": 2,
+                            "id": "20911",
+                            "nombre": "San Telmo - Villa san Carlos"
+                        }
+                    ],
+                    "id": "61",
+                    "nombre": "Primera B Metropolitana",
+                    "primerFecha": "2018-04-06 15:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "basquet.png",
+                        "id": "2",
+                        "nombre": "Básquet"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "14",
+                                    "nombre": "NBA TV"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "basquet.png",
+                                "id": "2",
+                                "nombre": "Básquet"
+                            },
+                            "fecha": "2018-04-06 20:30:00",
+                            "horaDia": 3,
+                            "id": "20831",
+                            "nombre": "Toronto Raptors - Indiana Pacers"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "basquet.png",
+                                "id": "2",
+                                "nombre": "Básquet"
+                            },
+                            "fecha": "2018-04-06 23:30:00",
+                            "horaDia": 3,
+                            "id": "20818",
+                            "nombre": "Minnesota Timberwolves - Los Angeles Lakers\t"
+                        }
+                    ],
+                    "id": "10",
+                    "nombre": "NBA",
+                    "primerFecha": "2018-04-06 20:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "basquet.png",
+                        "id": "2",
+                        "nombre": "Básquet"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "basquet.png",
+                                "id": "2",
+                                "nombre": "Básquet"
+                            },
+                            "fecha": "2018-04-06 21:00:00",
+                            "horaDia": 3,
+                            "id": "20912",
+                            "nombre": "Quilmes - Obras"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "20",
+                                    "nombre": "TYC SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "basquet.png",
+                                "id": "2",
+                                "nombre": "Básquet"
+                            },
+                            "fecha": "2018-04-06 21:30:00",
+                            "horaDia": 3,
+                            "id": "20816",
+                            "nombre": "Olimpico - Quimsa\t"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "basquet.png",
+                                "id": "2",
+                                "nombre": "Básquet"
+                            },
+                            "fecha": "2018-04-06 21:30:00",
+                            "horaDia": 3,
+                            "id": "20913",
+                            "nombre": "Estudiantes - Boca"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "basquet.png",
+                                "id": "2",
+                                "nombre": "Básquet"
+                            },
+                            "fecha": "2018-04-06 21:30:00",
+                            "horaDia": 3,
+                            "id": "20914",
+                            "nombre": "Gimnasia - Argentino (J)"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "basquet.png",
+                                "id": "2",
+                                "nombre": "Básquet"
+                            },
+                            "fecha": "2018-04-06 21:30:00",
+                            "horaDia": 3,
+                            "id": "20915",
+                            "nombre": "Regatas - San Lorenzo"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "basquet.png",
+                                "id": "2",
+                                "nombre": "Básquet"
+                            },
+                            "fecha": "2018-04-06 22:00:00",
+                            "horaDia": 3,
+                            "id": "20916",
+                            "nombre": "La Union - Bahia Basket"
+                        }
+                    ],
+                    "id": "13",
+                    "nombre": "Liga Nacional",
+                    "primerFecha": "2018-04-06 21:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "automovilismo.png",
+                        "id": "5",
+                        "nombre": "Automovilismo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-06 09:30:00",
+                            "horaDia": 1,
+                            "id": "20809",
+                            "nombre": "Ensayos #1"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-06 14:00:00",
+                            "horaDia": 2,
+                            "id": "20812",
+                            "nombre": "Ensayos #2"
+                        }
+                    ],
+                    "id": "956",
+                    "nombre": "Moto GP Argentina\t",
+                    "primerFecha": "2018-04-06 09:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "polideportivo.png",
+                        "id": "7",
+                        "nombre": "Polideportivo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "polideportivo.png",
+                                "id": "7",
+                                "nombre": "Polideportivo"
+                            },
+                            "fecha": "2018-04-06 10:00:00",
+                            "horaDia": 1,
+                            "id": "20908",
+                            "nombre": "Grand Prix Antalya"
+                        }
+                    ],
+                    "id": "852",
+                    "nombre": "Judo: Grand Prix",
+                    "primerFecha": "2018-04-06 10:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "polideportivo.png",
+                        "id": "7",
+                        "nombre": "Polideportivo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "polideportivo.png",
+                                "id": "7",
+                                "nombre": "Polideportivo"
+                            },
+                            "fecha": "2018-04-06 11:00:00",
+                            "horaDia": 1,
+                            "id": "20810",
+                            "nombre": "Segunda ronda\t"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "polideportivo.png",
+                                "id": "7",
+                                "nombre": "Polideportivo"
+                            },
+                            "fecha": "2018-04-06 16:00:00",
+                            "horaDia": 2,
+                            "id": "20814",
+                            "nombre": "Segunda ronda"
+                        }
+                    ],
+                    "id": "369",
+                    "nombre": "Golf: Masters de Augusta",
+                    "primerFecha": "2018-04-06 11:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "polideportivo.png",
+                        "id": "7",
+                        "nombre": "Polideportivo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "polideportivo.png",
+                                "id": "7",
+                                "nombre": "Polideportivo"
+                            },
+                            "fecha": "2018-04-06 20:00:00",
+                            "horaDia": 3,
+                            "id": "20815",
+                            "nombre": "Baltimore Orioles - New York Yankees\t"
+                        }
+                    ],
+                    "id": "368",
+                    "nombre": "MLB (Major League Baseball)",
+                    "primerFecha": "2018-04-06 20:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "polideportivo.png",
+                        "id": "7",
+                        "nombre": "Polideportivo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "15",
+                                    "nombre": "FOX SPORTS 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "polideportivo.png",
+                                "id": "7",
+                                "nombre": "Polideportivo"
+                            },
+                            "fecha": "2018-04-06 22:00:00",
+                            "horaDia": 3,
+                            "id": "20817",
+                            "nombre": "Gallagher - Borics\t"
+                        }
+                    ],
+                    "id": "186",
+                    "nombre": "Bellator MMA",
+                    "primerFecha": "2018-04-06 22:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "boxeo.png",
+                        "id": "6",
+                        "nombre": "Boxeo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                },
+                                {
+                                    "id": "20",
+                                    "nombre": "TYC SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "boxeo.png",
+                                "id": "6",
+                                "nombre": "Boxeo"
+                            },
+                            "fecha": "2018-04-06 23:55:00",
+                            "horaDia": 3,
+                            "id": "20835",
+                            "nombre": "Yessica Bopp - Del Valle Frias"
+                        }
+                    ],
+                    "id": "30",
+                    "nombre": "Boxeo de Primera",
+                    "primerFecha": "2018-04-06 23:55:00"
+                }
+            ]
+        },
+        {
+            "eventos": [],
+            "fecha": "2018-04-07",
+            "tieneEventos": true,
+            "torneos": [
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "96",
+                                    "nombre": "FOX PREMIUM"
+                                },
+                                {
+                                    "id": "15",
+                                    "nombre": "FOX SPORTS 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 13:15:00",
+                            "horaDia": 2,
+                            "id": "20847",
+                            "nombre": "Rosario Central - Belgrano"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "95",
+                                    "nombre": "TNT SPORTS"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 13:15:00",
+                            "horaDia": 2,
+                            "id": "20848",
+                            "nombre": "Temperley - Lanús"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "95",
+                                    "nombre": "TNT SPORTS"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 15:30:00",
+                            "horaDia": 2,
+                            "id": "20853",
+                            "nombre": "Colon - Velez"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "96",
+                                    "nombre": "FOX PREMIUM"
+                                },
+                                {
+                                    "id": "15",
+                                    "nombre": "FOX SPORTS 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 17:45:00",
+                            "horaDia": 2,
+                            "id": "20854",
+                            "nombre": "Banfield - Olimpo"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "95",
+                                    "nombre": "TNT SPORTS"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 20:00:00",
+                            "horaDia": 3,
+                            "id": "20855",
+                            "nombre": "Boca - Defensa y Justicia"
+                        }
+                    ],
+                    "id": "718",
+                    "nombre": "Superliga Argentina",
+                    "primerFecha": "2018-04-07 13:15:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "tenis.png",
+                        "id": "3",
+                        "nombre": "Tenis"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                },
+                                {
+                                    "id": "20",
+                                    "nombre": "TYC SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "tenis.png",
+                                "id": "3",
+                                "nombre": "Tenis"
+                            },
+                            "fecha": "2018-04-07 14:00:00",
+                            "horaDia": 2,
+                            "id": "20836",
+                            "nombre": "Argentina - Chile"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                },
+                                {
+                                    "id": "20",
+                                    "nombre": "TYC SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "tenis.png",
+                                "id": "3",
+                                "nombre": "Tenis"
+                            },
+                            "fecha": "2018-04-07 14:00:00",
+                            "horaDia": 2,
+                            "id": "20888",
+                            "nombre": "Guillermo Durán / Maximo González - Nicolas Jarry / Hans Podlipnik Castillo"
+                        }
+                    ],
+                    "id": "26",
+                    "nombre": "Copa Davis",
+                    "primerFecha": "2018-04-07 14:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "39",
+                                    "nombre": "ESPN 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 08:00:00",
+                            "horaDia": 1,
+                            "id": "20840",
+                            "nombre": "Alaves - Getafe "
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 11:15:00",
+                            "horaDia": 1,
+                            "id": "20844",
+                            "nombre": "Celta de Vigo - Sevilla "
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 13:30:00",
+                            "horaDia": 2,
+                            "id": "20889",
+                            "nombre": "Real Betis - Eibar"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "39",
+                                    "nombre": "ESPN 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 15:45:00",
+                            "horaDia": 2,
+                            "id": "20852",
+                            "nombre": "Barcelona - Leganés "
+                        }
+                    ],
+                    "id": "126",
+                    "nombre": "Liga de España",
+                    "primerFecha": "2018-04-07 08:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 08:30:00",
+                            "horaDia": 1,
+                            "id": "20890",
+                            "nombre": "Everton -\t Liverpool"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 11:00:00",
+                            "horaDia": 1,
+                            "id": "20891",
+                            "nombre": "Bournemouth - Crystal Palace"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 11:00:00",
+                            "horaDia": 1,
+                            "id": "20892",
+                            "nombre": "Brighton - Huddersfield"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 11:00:00",
+                            "horaDia": 1,
+                            "id": "20893",
+                            "nombre": "Leicester - Newcastle"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 11:00:00",
+                            "horaDia": 1,
+                            "id": "20894",
+                            "nombre": "Stoke City - Tottenham"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 11:00:00",
+                            "horaDia": 1,
+                            "id": "20895",
+                            "nombre": "Watford -\t Burnley"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 11:00:00",
+                            "horaDia": 1,
+                            "id": "20896",
+                            "nombre": "West Brom - Swansea"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "39",
+                                    "nombre": "ESPN 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 13:30:00",
+                            "horaDia": 2,
+                            "id": "20849",
+                            "nombre": "Manchester City - Manchester United"
+                        }
+                    ],
+                    "id": "125",
+                    "nombre": "Premier League",
+                    "primerFecha": "2018-04-07 08:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "39",
+                                    "nombre": "ESPN 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 10:00:00",
+                            "horaDia": 1,
+                            "id": "20841",
+                            "nombre": "Benevento - Juventus"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 13:00:00",
+                            "horaDia": 2,
+                            "id": "20846",
+                            "nombre": "Roma - Fiorentina"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 13:00:00",
+                            "horaDia": 2,
+                            "id": "20897",
+                            "nombre": "Spal - Atalanta"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "7",
+                                    "nombre": "FOX SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 15:30:00",
+                            "horaDia": 2,
+                            "id": "20851",
+                            "nombre": "Sampdoria - Genoa "
+                        }
+                    ],
+                    "id": "128",
+                    "nombre": "Serie A de Italia",
+                    "primerFecha": "2018-04-07 10:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "7",
+                                    "nombre": "FOX SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 10:30:00",
+                            "horaDia": 1,
+                            "id": "20842",
+                            "nombre": "Augsburg - Bayern Munich"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "15",
+                                    "nombre": "FOX SPORTS 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 10:30:00",
+                            "horaDia": 1,
+                            "id": "20843",
+                            "nombre": "Fc Koln - FSV Mainz 05"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "7",
+                                    "nombre": "FOX SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 13:30:00",
+                            "horaDia": 2,
+                            "id": "20850",
+                            "nombre": "Hamburgo - Schalke 04"
+                        }
+                    ],
+                    "id": "129",
+                    "nombre": "Bundesliga de Alemania",
+                    "primerFecha": "2018-04-07 10:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 12:00:00",
+                            "horaDia": 2,
+                            "id": "20898",
+                            "nombre": "Mónaco -\t Nantes"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-07 15:00:00",
+                            "horaDia": 2,
+                            "id": "20899",
+                            "nombre": "Girondins - Lille"
+                        }
+                    ],
+                    "id": "127",
+                    "nombre": "Ligue 1 de Francia",
+                    "primerFecha": "2018-04-07 12:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "basquet.png",
+                        "id": "2",
+                        "nombre": "Básquet"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "basquet.png",
+                                "id": "2",
+                                "nombre": "Básquet"
+                            },
+                            "fecha": "2018-04-07 21:30:00",
+                            "horaDia": 3,
+                            "id": "20864",
+                            "nombre": "Oklahoma City Thunder - Houston Rockets"
+                        }
+                    ],
+                    "id": "10",
+                    "nombre": "NBA",
+                    "primerFecha": "2018-04-07 21:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "automovilismo.png",
+                        "id": "5",
+                        "nombre": "Automovilismo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "27",
+                                    "nombre": "FOX SPORTS 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-07 09:00:00",
+                            "horaDia": 1,
+                            "id": "20856",
+                            "nombre": "Practica 3 "
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "27",
+                                    "nombre": "FOX SPORTS 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-07 12:00:00",
+                            "horaDia": 2,
+                            "id": "20857",
+                            "nombre": "Clasificación"
+                        }
+                    ],
+                    "id": "582",
+                    "nombre": "F1 - GP de Bahreín",
+                    "primerFecha": "2018-04-07 09:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "automovilismo.png",
+                        "id": "5",
+                        "nombre": "Automovilismo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-07 09:30:00",
+                            "horaDia": 1,
+                            "id": "20860",
+                            "nombre": "Ensayos #3"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-07 14:03:00",
+                            "horaDia": 2,
+                            "id": "20861",
+                            "nombre": "Clasificación"
+                        }
+                    ],
+                    "id": "956",
+                    "nombre": "Moto GP Argentina\t",
+                    "primerFecha": "2018-04-07 09:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "automovilismo.png",
+                        "id": "5",
+                        "nombre": "Automovilismo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "27",
+                                    "nombre": "FOX SPORTS 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-07 16:00:00",
+                            "horaDia": 2,
+                            "id": "20858",
+                            "nombre": "Texas"
+                        }
+                    ],
+                    "id": "177",
+                    "nombre": "Nascar Xfinity Series",
+                    "primerFecha": "2018-04-07 16:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "polideportivo.png",
+                        "id": "7",
+                        "nombre": "Polideportivo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "polideportivo.png",
+                                "id": "7",
+                                "nombre": "Polideportivo"
+                            },
+                            "fecha": "2018-04-07 16:00:00",
+                            "horaDia": 2,
+                            "id": "20865",
+                            "nombre": "Tercera Ronda"
+                        }
+                    ],
+                    "id": "369",
+                    "nombre": "Golf: Masters de Augusta",
+                    "primerFecha": "2018-04-07 16:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "rugby.png",
+                        "id": "4",
+                        "nombre": "Rugby"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "rugby.png",
+                                "id": "4",
+                                "nombre": "Rugby"
+                            },
+                            "fecha": "2018-04-07 18:40:00",
+                            "horaDia": 2,
+                            "id": "20862",
+                            "nombre": "Jaguares - Crusaders"
+                        }
+                    ],
+                    "id": "329",
+                    "nombre": "Super Rugby",
+                    "primerFecha": "2018-04-07 18:40:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "automovilismo.png",
+                        "id": "5",
+                        "nombre": "Automovilismo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-07 22:30:00",
+                            "horaDia": 3,
+                            "id": "20859",
+                            "nombre": "Phoenix"
+                        }
+                    ],
+                    "id": "351",
+                    "nombre": "IndyCar Series",
+                    "primerFecha": "2018-04-07 22:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "boxeo.png",
+                        "id": "6",
+                        "nombre": "Boxeo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                },
+                                {
+                                    "id": "20",
+                                    "nombre": "TYC SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "boxeo.png",
+                                "id": "6",
+                                "nombre": "Boxeo"
+                            },
+                            "fecha": "2018-04-07 23:00:00",
+                            "horaDia": 3,
+                            "id": "20837",
+                            "nombre": "M. Romero - J. Cuadro"
+                        }
+                    ],
+                    "id": "30",
+                    "nombre": "Boxeo de Primera",
+                    "primerFecha": "2018-04-07 23:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "rugby.png",
+                        "id": "4",
+                        "nombre": "Rugby"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "15",
+                                    "nombre": "FOX SPORTS 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "rugby.png",
+                                "id": "4",
+                                "nombre": "Rugby"
+                            },
+                            "fecha": "2018-04-07 23:55:00",
+                            "horaDia": 3,
+                            "id": "20863",
+                            "nombre": "Dia 3 - Hong Kong"
+                        }
+                    ],
+                    "id": "550",
+                    "nombre": "World Rugby Seven",
+                    "primerFecha": "2018-04-07 23:55:00"
+                }
+            ]
+        },
+        {
+            "eventos": [],
+            "fecha": "2018-04-08",
+            "tieneEventos": true,
+            "torneos": [
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "96",
+                                    "nombre": "FOX PREMIUM"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 11:00:00",
+                            "horaDia": 1,
+                            "id": "20871",
+                            "nombre": "San Lorenzo - Godoy Cruz"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "95",
+                                    "nombre": "TNT SPORTS"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 13:15:00",
+                            "horaDia": 2,
+                            "id": "20875",
+                            "nombre": "San Martín de San Juan - Huracan"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "96",
+                                    "nombre": "FOX PREMIUM"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 15:30:00",
+                            "horaDia": 2,
+                            "id": "20876",
+                            "nombre": "Atlético Tucuman - Newells"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "95",
+                                    "nombre": "TNT SPORTS"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 17:45:00",
+                            "horaDia": 2,
+                            "id": "20878",
+                            "nombre": "Talleres - Independiente"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "96",
+                                    "nombre": "FOX PREMIUM"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 20:00:00",
+                            "horaDia": 3,
+                            "id": "20879",
+                            "nombre": "Racing - River"
+                        }
+                    ],
+                    "id": "718",
+                    "nombre": "Superliga Argentina",
+                    "primerFecha": "2018-04-08 11:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "39",
+                                    "nombre": "ESPN 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 07:00:00",
+                            "horaDia": 1,
+                            "id": "20866",
+                            "nombre": "Levante - Las Palmas"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "84",
+                                    "nombre": "CANAL 8/EVENTOS HD 600 CABLEVISION"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 11:15:00",
+                            "horaDia": 1,
+                            "id": "20872",
+                            "nombre": "Real Madrid - Atlético Madrid"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 13:30:00",
+                            "horaDia": 2,
+                            "id": "20873",
+                            "nombre": "Real Sociedad - Girona"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 15:45:00",
+                            "horaDia": 2,
+                            "id": "20900",
+                            "nombre": "Valencia - Espanyol"
+                        }
+                    ],
+                    "id": "126",
+                    "nombre": "Liga de España",
+                    "primerFecha": "2018-04-08 07:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 10:15:00",
+                            "horaDia": 1,
+                            "id": "20868",
+                            "nombre": "Arsenal - Southampton"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 12:30:00",
+                            "horaDia": 2,
+                            "id": "20903",
+                            "nombre": "Chelsea -\t West Ham"
+                        }
+                    ],
+                    "id": "125",
+                    "nombre": "Premier League",
+                    "primerFecha": "2018-04-08 10:15:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "7",
+                                    "nombre": "FOX SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 07:30:00",
+                            "horaDia": 1,
+                            "id": "20867",
+                            "nombre": "Torino - Inter"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "15",
+                                    "nombre": "FOX SPORTS 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 10:00:00",
+                            "horaDia": 1,
+                            "id": "20869",
+                            "nombre": "Napoli - Chievo Verona"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 10:00:00",
+                            "horaDia": 1,
+                            "id": "20904",
+                            "nombre": "Crotone -\t Bologna"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 10:00:00",
+                            "horaDia": 1,
+                            "id": "20905",
+                            "nombre": "Verona -\t Cagliari"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "15",
+                                    "nombre": "FOX SPORTS 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 13:00:00",
+                            "horaDia": 2,
+                            "id": "20874",
+                            "nombre": "Udinese - Lazio "
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 15:30:00",
+                            "horaDia": 2,
+                            "id": "20877",
+                            "nombre": "Milan - Sassuolo"
+                        }
+                    ],
+                    "id": "128",
+                    "nombre": "Serie A de Italia",
+                    "primerFecha": "2018-04-08 07:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "7",
+                                    "nombre": "FOX SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 10:30:00",
+                            "horaDia": 1,
+                            "id": "20870",
+                            "nombre": "Borussia Dortmund - Stuttgart"
+                        }
+                    ],
+                    "id": "129",
+                    "nombre": "Bundesliga de Alemania",
+                    "primerFecha": "2018-04-08 10:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 10:00:00",
+                            "horaDia": 1,
+                            "id": "20901",
+                            "nombre": "Niza - Stade Rennais"
+                        },
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 12:00:00",
+                            "horaDia": 2,
+                            "id": "20845",
+                            "nombre": "Olympique de Marsella - Montpellier"
+                        },
+                        {
+                            "canales": [],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 12:00:00",
+                            "horaDia": 2,
+                            "id": "20902",
+                            "nombre": "Metz - Lyon"
+                        }
+                    ],
+                    "id": "127",
+                    "nombre": "Ligue 1 de Francia",
+                    "primerFecha": "2018-04-08 10:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "50",
+                                    "nombre": "TYC SPORTS PLAY"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 15:00:00",
+                            "horaDia": 2,
+                            "id": "20917",
+                            "nombre": "Estudiantes - Talleres"
+                        }
+                    ],
+                    "id": "61",
+                    "nombre": "Primera B Metropolitana",
+                    "primerFecha": "2018-04-08 15:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "rugby.png",
+                        "id": "4",
+                        "nombre": "Rugby"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "rugby.png",
+                                "id": "4",
+                                "nombre": "Rugby"
+                            },
+                            "fecha": "2018-04-08 07:30:00",
+                            "horaDia": 1,
+                            "id": "20882",
+                            "nombre": "Montpellier - La Rochele"
+                        }
+                    ],
+                    "id": "96",
+                    "nombre": "Top 14 de Francia",
+                    "primerFecha": "2018-04-08 07:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "automovilismo.png",
+                        "id": "5",
+                        "nombre": "Automovilismo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "39",
+                                    "nombre": "ESPN 2/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-08 11:30:00",
+                            "horaDia": 1,
+                            "id": "20887",
+                            "nombre": "Carrera Moto3"
+                        }
+                    ],
+                    "id": "956",
+                    "nombre": "Moto GP Argentina\t",
+                    "primerFecha": "2018-04-08 11:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "automovilismo.png",
+                        "id": "5",
+                        "nombre": "Automovilismo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "105",
+                                    "nombre": "Fox Premium Action / HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-08 12:00:00",
+                            "horaDia": 2,
+                            "id": "20880",
+                            "nombre": "Carrera "
+                        }
+                    ],
+                    "id": "582",
+                    "nombre": "F1 - GP de Bahreín",
+                    "primerFecha": "2018-04-08 12:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "automovilismo.png",
+                        "id": "5",
+                        "nombre": "Automovilismo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "27",
+                                    "nombre": "FOX SPORTS 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-08 12:30:00",
+                            "horaDia": 2,
+                            "id": "20881",
+                            "nombre": "Carreras 2 y 3"
+                        }
+                    ],
+                    "id": "957",
+                    "nombre": "WTCR Marruecos",
+                    "primerFecha": "2018-04-08 12:30:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "polideportivo.png",
+                        "id": "7",
+                        "nombre": "Polideportivo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "31",
+                                    "nombre": "ESPN HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "polideportivo.png",
+                                "id": "7",
+                                "nombre": "Polideportivo"
+                            },
+                            "fecha": "2018-04-08 15:00:00",
+                            "horaDia": 2,
+                            "id": "20883",
+                            "nombre": "Ronda final"
+                        }
+                    ],
+                    "id": "369",
+                    "nombre": "Golf: Masters de Augusta",
+                    "primerFecha": "2018-04-08 15:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "automovilismo.png",
+                        "id": "5",
+                        "nombre": "Automovilismo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "27",
+                                    "nombre": "FOX SPORTS 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "automovilismo.png",
+                                "id": "5",
+                                "nombre": "Automovilismo"
+                            },
+                            "fecha": "2018-04-08 15:00:00",
+                            "horaDia": 2,
+                            "id": "20886",
+                            "nombre": "Texas "
+                        }
+                    ],
+                    "id": "932",
+                    "nombre": "Monster Energy Nascar Cup Series\t",
+                    "primerFecha": "2018-04-08 15:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "polideportivo.png",
+                        "id": "7",
+                        "nombre": "Polideportivo"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "25",
+                                    "nombre": "ESPN 3/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "polideportivo.png",
+                                "id": "7",
+                                "nombre": "Polideportivo"
+                            },
+                            "fecha": "2018-04-08 21:00:00",
+                            "horaDia": 3,
+                            "id": "20884",
+                            "nombre": "New York Mets - Washington"
+                        }
+                    ],
+                    "id": "951",
+                    "nombre": "Beisbol: MLB Partido de Pretemporada\t",
+                    "primerFecha": "2018-04-08 21:00:00"
+                },
+                {
+                    "deporte": {
+                        "icono": "futbol.png",
+                        "id": "1",
+                        "nombre": "Fútbol"
+                    },
+                    "eventos": [
+                        {
+                            "canales": [
+                                {
+                                    "id": "7",
+                                    "nombre": "FOX SPORTS/HD"
+                                }
+                            ],
+                            "deporte": {
+                                "icono": "futbol.png",
+                                "id": "1",
+                                "nombre": "Fútbol"
+                            },
+                            "fecha": "2018-04-08 22:30:00",
+                            "horaDia": 3,
+                            "id": "20885",
+                            "nombre": "Los Angeles Galaxy - Kansas City"
+                        }
+                    ],
+                    "id": "143",
+                    "nombre": "MLS (Major League Soccer)",
+                    "primerFecha": "2018-04-08 22:30:00"
+                }
+            ]
+        }
+    ],
+    "firma": {
+        "mail": "lrazetti@ole.com.ar",
+        "nombre": "Lucas Razetti"
+    },
+    "hoy": "2018-04-06",
+    "torneos": [
+        {
+            "deporte": {
+                "icono": "polideportivo.png",
+                "id": "7",
+                "nombre": "Polideportivo"
+            },
+            "eventos": [],
+            "id": "951",
+            "nombre": "Beisbol: MLB Partido de Pretemporada\t",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "polideportivo.png",
+                "id": "7",
+                "nombre": "Polideportivo"
+            },
+            "eventos": [],
+            "id": "186",
+            "nombre": "Bellator MMA",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "boxeo.png",
+                "id": "6",
+                "nombre": "Boxeo"
+            },
+            "eventos": [],
+            "id": "30",
+            "nombre": "Boxeo de Primera",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "futbol.png",
+                "id": "1",
+                "nombre": "Fútbol"
+            },
+            "eventos": [],
+            "id": "129",
+            "nombre": "Bundesliga de Alemania",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "tenis.png",
+                "id": "3",
+                "nombre": "Tenis"
+            },
+            "eventos": [],
+            "id": "26",
+            "nombre": "Copa Davis",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "automovilismo.png",
+                "id": "5",
+                "nombre": "Automovilismo"
+            },
+            "eventos": [],
+            "id": "582",
+            "nombre": "F1 - GP de Bahreín",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "polideportivo.png",
+                "id": "7",
+                "nombre": "Polideportivo"
+            },
+            "eventos": [],
+            "id": "369",
+            "nombre": "Golf: Masters de Augusta",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "automovilismo.png",
+                "id": "5",
+                "nombre": "Automovilismo"
+            },
+            "eventos": [],
+            "id": "351",
+            "nombre": "IndyCar Series",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "polideportivo.png",
+                "id": "7",
+                "nombre": "Polideportivo"
+            },
+            "eventos": [],
+            "id": "852",
+            "nombre": "Judo: Grand Prix",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "futbol.png",
+                "id": "1",
+                "nombre": "Fútbol"
+            },
+            "eventos": [],
+            "id": "126",
+            "nombre": "Liga de España",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "basquet.png",
+                "id": "2",
+                "nombre": "Básquet"
+            },
+            "eventos": [],
+            "id": "13",
+            "nombre": "Liga Nacional",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "futbol.png",
+                "id": "1",
+                "nombre": "Fútbol"
+            },
+            "eventos": [],
+            "id": "127",
+            "nombre": "Ligue 1 de Francia",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "polideportivo.png",
+                "id": "7",
+                "nombre": "Polideportivo"
+            },
+            "eventos": [],
+            "id": "368",
+            "nombre": "MLB (Major League Baseball)",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "futbol.png",
+                "id": "1",
+                "nombre": "Fútbol"
+            },
+            "eventos": [],
+            "id": "143",
+            "nombre": "MLS (Major League Soccer)",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "automovilismo.png",
+                "id": "5",
+                "nombre": "Automovilismo"
+            },
+            "eventos": [],
+            "id": "932",
+            "nombre": "Monster Energy Nascar Cup Series\t",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "automovilismo.png",
+                "id": "5",
+                "nombre": "Automovilismo"
+            },
+            "eventos": [],
+            "id": "956",
+            "nombre": "Moto GP Argentina\t",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "automovilismo.png",
+                "id": "5",
+                "nombre": "Automovilismo"
+            },
+            "eventos": [],
+            "id": "177",
+            "nombre": "Nascar Xfinity Series",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "basquet.png",
+                "id": "2",
+                "nombre": "Básquet"
+            },
+            "eventos": [],
+            "id": "10",
+            "nombre": "NBA",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "futbol.png",
+                "id": "1",
+                "nombre": "Fútbol"
+            },
+            "eventos": [],
+            "id": "125",
+            "nombre": "Premier League",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "futbol.png",
+                "id": "1",
+                "nombre": "Fútbol"
+            },
+            "eventos": [],
+            "id": "61",
+            "nombre": "Primera B Metropolitana",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "futbol.png",
+                "id": "1",
+                "nombre": "Fútbol"
+            },
+            "eventos": [],
+            "id": "128",
+            "nombre": "Serie A de Italia",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "rugby.png",
+                "id": "4",
+                "nombre": "Rugby"
+            },
+            "eventos": [],
+            "id": "329",
+            "nombre": "Super Rugby",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "futbol.png",
+                "id": "1",
+                "nombre": "Fútbol"
+            },
+            "eventos": [],
+            "id": "718",
+            "nombre": "Superliga Argentina",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "rugby.png",
+                "id": "4",
+                "nombre": "Rugby"
+            },
+            "eventos": [],
+            "id": "96",
+            "nombre": "Top 14 de Francia",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "rugby.png",
+                "id": "4",
+                "nombre": "Rugby"
+            },
+            "eventos": [],
+            "id": "550",
+            "nombre": "World Rugby Seven",
+            "primerFecha": null
+        },
+        {
+            "deporte": {
+                "icono": "automovilismo.png",
+                "id": "5",
+                "nombre": "Automovilismo"
+            },
+            "eventos": [],
+            "id": "957",
+            "nombre": "WTCR Marruecos",
+            "primerFecha": null
+        }
+    ]
+}

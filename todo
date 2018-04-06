@@ -1,6 +1,8 @@
 - bin/
 - interactive yargs
 - filter
+  - https://github.com/goncy/ramda-lesson
+  - https://gist.github.com/cezarneaga/e7377357d62a2b2909685c1fb94125bb
 - sort files
 - add aliases
 - -v para creditos y version
