@@ -3,6 +3,7 @@
 - filter
 - sort files
 - add aliases
+- -v para creditos y version
 - functional makeTable
 - fcc-ba code-review
 - npm publish

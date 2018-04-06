@@ -1,30 +1,44 @@
 const yargsInteractive = require('yargs-interactive')
+const agenda = require('./ole')
 
 const options = {
-  name: {
+  dia: {
+    alias: 'd',
     type: 'input',
-    default: 'nano',
-    describe: 'Enter your name'
+    describe: 'Ingrese dia(s)'
   },
-  likesPizza: {
-    type: 'confirm',
-    default: false,
-    describe: 'Do you like pizza?'
+  horario: {
+    alias: 'h',
+    type: 'input',
+    describe: 'Ingrese horario(s)'
+  },
+  canal: {
+    alias: 'c',
+    type: 'input',
+    describe: 'Ingrese canale(s)'
+  },
+  deporte: {
+    alias: 'D',
+    type: 'input',
+    describe: 'Ingrese deporte(s)'
+  },
+  torneo: {
+    alias: 't',
+    type: 'input',
+    describe: 'Ingrese torneo(s)'
+  },
+  equipo: {
+    alias: 'e',
+    type: 'input',
+    describe: 'Ingrese equipo(s)'
   }
 }
 
 yargsInteractive()
   .usage('$0 <command> [args]')
   .interactive(options)
-  .then((result) => {
-    // The tool will prompt questions and will output your answers.
-    // TODO: Do something with the result (e.g result.name)
-    console.log(result)
+  .then((args) => {
+    agenda()
+      .then(console.log)
+      .catch(console.error)
   })
-
-/*
-  https://github.com/nanovazquez/yargs-interactive#prompt-just-some-questions-mixed-mode
-  Prompt questions with default values (full-interactive)
-  Prompt just some questions (mixed mode)
-  No prompt at all (ye olde yargs)
-*/
