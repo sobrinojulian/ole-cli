@@ -1,7 +1,6 @@
 const Table = require('cli-table2')
 const moment = require('moment')
 
-
 const makeTable = (agenda) => {
   let table = new Table({
     chars: {

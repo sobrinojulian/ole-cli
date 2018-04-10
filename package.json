@@ -2,7 +2,7 @@
   "name": "agenda-ole-cli",
   "version": "1.0.0",
   "description": "CLI para la Agenda deportiva Olé",
-  "main": "cli.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sobrinojulian/agenda-ole-cli.git"
