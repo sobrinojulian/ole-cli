@@ -18,8 +18,6 @@ const main = () => {
   })
 }
 
-const arrIsEmpty = arr => arr.length === 0
-
 const wordWrapCanales = canales => {
   let str = ''
   for (let i = 0; i < canales.length; i++) {
@@ -40,7 +38,8 @@ const makeTable = agenda => {
     table.push([{ colSpan: 3, content: colors.green(dia) }])
 
     for (const torneo of fecha.torneos) {
-      if (arrIsEmpty(torneo.eventos)) continue
+      const hasEventos = torneo.eventos.length !== 0
+      if (!hasEventos) continue
       const deporte = torneo.eventos[0].deporte.nombre.replace('\t', '')
       const emoji = emojis[deporte]
       const deporteTorneo = `${emoji}  ${torneo.nombre}`.replace('\t', '')
