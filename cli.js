@@ -36,7 +36,7 @@ const makeTable = agenda => {
   let table = new Table()
 
   for (const fecha of agenda.fechas) {
-    const dia = moment(fecha.fecha).format('dddd DD [de] MMMM')
+    const dia = moment(fecha.fecha).locale('es').format('dddd DD [de] MMMM')
     table.push([{ colSpan: 3, content: colors.green(dia) }])
 
     for (const torneo of fecha.torneos) {
