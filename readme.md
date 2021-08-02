@@ -11,13 +11,14 @@ $ npm install --global https://github.com/sobrinojulian/ole-cli
 ## Usage
 
 ```
-$ ole # prints whole agenda
+$ ole
+# prints whole agenda
 ```
 
 
 ## Tip
 
-Run it piped to `less` by adding `alias ole='ole | less` to your `.zshrc`/`.bashrc`.
+Run it piped to `less` by adding `alias ole='ole | less'` to your `.zshrc`/`.bashrc`.
 
 
 ## Related
