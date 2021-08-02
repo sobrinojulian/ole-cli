@@ -1,14 +1,13 @@
 {
   "name": "ole-cli",
-  "version": "1.0.1",
-  "scripts": {
-    "start": "./cli.js"
-  },
+  "version": "0.1.1",
   "bin": {
     "ole": "cli.js"
   },
+  "scripts": {
+    "start": "node cli.js"
+  },
   "dependencies": {
-    "cli-table2": "^0.2.0",
     "cli-table3": "^0.6.0",
     "moment": "^2.21.0"
   }

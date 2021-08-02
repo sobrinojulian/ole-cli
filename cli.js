@@ -5,6 +5,19 @@ const Table = require('cli-table3')
 const colors = require('colors/safe')
 const moment = require('moment')
 
+const EMOJIS = {
+  Fútbol: '⚽',
+  Básquet: '🏀',
+  Boxeo: '🥊',
+  Polideportivo: '🏅',
+  Rugby: '🏉',
+  Golf: '⛳',
+  Voley: '🏐',
+  MMA: '🤼',
+  Automovilismo: '🏎️',
+  Tenis: '🎾'
+}
+
 const main = () => {
   const url = 'https://www.ole.com.ar/wg-agenda-deportiva/json/agenda.json'
   https.get(url, res => {
@@ -41,7 +54,7 @@ const makeTable = agenda => {
       const hasEventos = torneo.eventos.length !== 0
       if (!hasEventos) continue
       const deporte = torneo.eventos[0].deporte.nombre.replace('\t', '')
-      const emoji = emojis[deporte]
+      const emoji = EMOJIS[deporte]
       const deporteTorneo = `${emoji}  ${torneo.nombre}`.replace('\t', '')
       table.push([{ colSpan: 3, content: colors.red(deporteTorneo) }])
 
@@ -57,19 +70,6 @@ const makeTable = agenda => {
     }
   }
   return table
-}
-
-const emojis = {
-  Fútbol: '⚽',
-  Básquet: '🏀',
-  Boxeo: '🥊',
-  Polideportivo: '🏅',
-  Rugby: '🏉',
-  Golf: '⛳',
-  Voley: '🏐',
-  MMA: '🤼',
-  Automovilismo: '🏎️',
-  Tenis: '🎾'
 }
 
 main()
