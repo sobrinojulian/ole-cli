@@ -1,22 +1,11 @@
 #!/usr/bin/env node
 
 const https = require('https')
-const cli = require('commander')
-const Table = require('cli-table2')
+const Table = require('cli-table3')
 const colors = require('colors/safe')
 const moment = require('moment')
 
 const main = () => {
-  cli
-    .version('0.1.0')
-    .usage('[options]')
-    .option('-d, --dia <hoy,maniana,pasado,lunes,martes,...>', 'Filtra por dia')
-    .option('-o, --horario <maniana,tarde,noche>', 'Filtra por horario')
-    .option('-c, --canal <c1,c2,...>', 'Filtra por canal')
-    .option('-D, --deporte <d1,d2,...>', 'Filtra por deporte')
-    .option('-t, --torneo <t1,t2,...>', 'Filtra por torneo')
-    .parse(process.argv)
-
   const url = 'https://www.ole.com.ar/wg-agenda-deportiva/json/agenda.json'
   https.get(url, res => {
     let data = ''
@@ -84,4 +73,4 @@ const emojis = {
   Tenis: '🎾'
 }
 
-main(cli)
+main()
