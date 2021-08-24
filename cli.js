@@ -1,75 +1,41 @@
 #!/usr/bin/env node
 
-const https = require('https')
-const Table = require('cli-table3')
-const colors = require('colors/safe')
-const moment = require('moment')
+import fetch from 'node-fetch'
+import Table from 'cli-table3'
+import moment from 'moment'
+import colors from 'colors'
 
-const EMOJIS = {
-  Fútbol: '⚽',
-  Básquet: '🏀',
-  Boxeo: '🥊',
-  Polideportivo: '🏅',
-  Rugby: '🏉',
-  Golf: '⛳',
-  Voley: '🏐',
-  MMA: '🤼',
-  Automovilismo: '🏎️',
-  Tenis: '🎾'
-}
-
-const main = () => {
-  const url = 'https://www.ole.com.ar/wg-agenda-deportiva/json/agenda.json'
-  https.get(url, res => {
-    let data = ''
-    res.on('data', chunk => (data += chunk))
-    res.on('end', () => {
-      const agenda = JSON.parse(data)
-      const table = makeTable(agenda)
-      console.log(table.toString())
-    })
-  })
-}
-
-const wordWrapCanales = canales => {
-  let str = ''
-  for (let i = 0; i < canales.length; i++) {
-    const canal = canales[i]
-    str += canal.nombre.match(/.{1,16}/g).join('-\n')
-
-    const lastIteration = i === canales.length - 1
-    if (!lastIteration) str += '\n'
-  }
-  return str
-}
+import { EMOJIS, wordWrapCanales } from './helpers.js'
 
 const makeTable = agenda => {
-  let table = new Table()
+  const table = new Table()
 
   for (const fecha of agenda.fechas) {
     const dia = moment(fecha.fecha).locale('es').format('dddd DD [de] MMMM')
     table.push([{ colSpan: 3, content: colors.green(dia) }])
 
-    for (const torneo of fecha.torneos) {
-      const hasEventos = torneo.eventos.length !== 0
-      if (!hasEventos) continue
+    const filtrados = fecha.torneos.filter(x => x.eventos.length !== 0)
+    for (const torneo of filtrados) {
       const deporte = torneo.eventos[0].deporte.nombre.replace('\t', '')
-      const emoji = EMOJIS[deporte]
-      const deporteTorneo = `${emoji}  ${torneo.nombre}`.replace('\t', '')
-      table.push([{ colSpan: 3, content: colors.red(deporteTorneo) }])
+      const titulo = `${EMOJIS[deporte]}  ${torneo.nombre}`.replace('\t', '')
+      table.push([{ colSpan: 3, content: colors.red(titulo) }])
 
       for (const evento of torneo.eventos) {
         const horario = evento.fecha.split(' ')[1].substr(0, 5)
-        const nombre = evento.nombre
-          .replace('\t', '')
-          .split(' - ')
-          .join('\n')
+        const nombre = evento.nombre.replace('\t', '').split(' - ').join('\n')
         const canales = wordWrapCanales(evento.canales)
         table.push([colors.green(horario), nombre, canales])
       }
     }
   }
   return table
+}
+
+const main = async () => {
+  const response = await fetch('https://www.ole.com.ar/wg-agenda-deportiva/json/agenda.json')
+  const agenda = await response.json()
+  const table = makeTable(agenda)
+  console.log(table.toString())
 }
 
 main()
