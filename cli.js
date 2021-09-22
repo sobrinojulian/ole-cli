@@ -5,7 +5,18 @@ import Table from 'cli-table3'
 import moment from 'moment'
 import colors from 'colors'
 
-import { EMOJIS, wordWrapCanales } from './helpers.js'
+const EMOJIS = {
+  Fútbol: '⚽',
+  Básquet: '🏀',
+  Boxeo: '🥊',
+  Polideportivo: '🏅',
+  Rugby: '🏉',
+  Golf: '⛳',
+  Voley: '🏐',
+  MMA: '🤼',
+  Automovilismo: '🏎️',
+  Tenis: '🎾'
+}
 
 const makeTable = agenda => {
   const table = new Table()
@@ -23,7 +34,7 @@ const makeTable = agenda => {
       for (const evento of torneo.eventos) {
         const horario = evento.fecha.split(' ')[1].substr(0, 5)
         const nombre = evento.nombre.replace('\t', '').split(' - ').join('\n')
-        const canales = wordWrapCanales(evento.canales)
+        const canales = evento.canales.map(x => x.nombre).join('\n')
         table.push([colors.green(horario), nombre, canales])
       }
     }
